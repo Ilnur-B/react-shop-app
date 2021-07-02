@@ -4,7 +4,12 @@ const Footer = () => {
             <div className="footer-copyright">
                 <div className="container">
                     © {new Date().getFullYear()} Copyright Text
-                    <a className="grey-text text-lighten-4 right" href="#!">Shop App</a>
+                    <a
+                        className="grey-text text-lighten-4 right"
+                        href="/"
+                        target='_blank'
+                    >Shop App
+                    </a>
                 </div>
             </div>
         </footer>
